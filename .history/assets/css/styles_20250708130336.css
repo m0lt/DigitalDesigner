@@ -238,11 +238,6 @@ footer a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-
-#herz {
-  animation: grow 1s linear infinite;
-}
-
 @keyframes grow {
   0% {
     transform: scale(1);
@@ -253,4 +248,7 @@ footer a:hover {
   100% {
     transform: scale(1);
   }
+}
+#herz {
+  animation: grow 1s linear infinite;
 }

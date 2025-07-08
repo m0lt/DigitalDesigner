@@ -240,17 +240,14 @@ footer a:hover {
 }
 
 #herz {
-  animation: grow 1s linear infinite;
+  animation: grow 3s linear infinite;
 }
 
 @keyframes grow {
   0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.3);
+    width: 12px;
   }
   100% {
-    transform: scale(1);
+    width: 16px;
   }
 }
