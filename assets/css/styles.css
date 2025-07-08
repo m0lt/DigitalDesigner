@@ -26,13 +26,10 @@
   src: url(../font/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 
-html {
-}
-
 h1 {
   font-family: "Didact Gothic";
   font-size: 100px;
-  font-weight: 100px;
+  font-weight: 200;
   letter-spacing: -2px;
   margin: 30px;
 }
